@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+
+            />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Bienvenido a Cashreader"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:fontFamily="sans-serif"
+            android:textSize="23sp"
+            android:background="@drawable/fondo_titulo"
+            android:padding="18dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="INICIAR"
+            android:backgroundTint="#33006400"
+            android:padding="30dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
